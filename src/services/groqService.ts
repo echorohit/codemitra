@@ -1,5 +1,5 @@
-import { InferenceService } from '../inferenceService';
-import { InferenceServiceBase } from '../infererenceServiceBase';
+import { InferenceService } from './interface.inferenceService';
+import { InferenceServiceBase } from './infererenceServiceBase';
 
 export class GroqService extends InferenceServiceBase {
     constructor(apiKey: string) {

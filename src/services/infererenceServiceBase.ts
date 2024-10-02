@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import { InferenceService } from './inferenceService';
+import { InferenceService } from './interface.inferenceService';
 
 export abstract class InferenceServiceBase implements InferenceService {
     protected axiosInstance: AxiosInstance;
