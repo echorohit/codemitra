@@ -1,71 +1,82 @@
-# codemitra README
+# CodeMitra - Your Intelligent Coding Assistant
 
-This is the README for your extension "codemitra". After writing up a brief description, we recommend including the following sections.
+Welcome to **CodeMitra**, your intelligent coding assistant for VS Code. CodeMitra integrates AI-powered inference services such as OpenAI, SambaNova, and Groq, allowing you to get code analysis, suggestions, optimizations, and insights directly within your favorite code editor.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **AI-Powered Code Suggestions**: Get real-time suggestions for improvements in your code for languages like JavaScript, Python, HTML, JSON, and more.
+- **Code Analysis**: Receive detailed feedback and optimizations for the code you write.
+- **Multi-Provider Support**: Easily switch between popular AI inference services, such as OpenAI, SambaNova, and Groq.
+- **Customizable**: Configure API keys for each provider and manage your preferences with ease.
+- **User-Friendly Interface**: Simple commands and an intuitive UI to make the most out of AI-powered assistance in your projects.
 
-For example if there is an image subfolder under your extension project workspace:
+### Example of Code Suggestion
 
-\!\[feature X\]\(images/feature-x.png\)
+Coming Up
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Inference Results Panel
+
+Coming Up
+
+> Tip: Use CodeMitra to find bugs, optimize code, and get real-time feedback on your scripts.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code version 1.60.0 or higher.
+- API keys from the supported AI services:
+  - **OpenAI**
+  - **SambaNova**
+  - **Groq**
+
+Ensure you have active accounts and valid API keys for these services. API keys can be configured within the extension settings.
+
+## Installation
+
+1. Install CodeMitra from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode).
+2. Go to the **Settings** in VS Code.
+3. Configure your preferred AI provider (OpenAI, SambaNova, or Groq) and provide the respective API keys.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+CodeMitra provides the following configuration settings:
 
-For example:
+- `codemitra.inferenceProvider`: Select the AI inference provider (OpenAI, SambaNova, Groq).
+- `codemitra.apiKey.openAI`: Set your OpenAI API key.
+- `codemitra.apiKey.sambaNova`: Set your SambaNova API key.
+- `codemitra.apiKey.groq`: Set your Groq API key.
 
-This extension contributes the following settings:
+## How to Use CodeMitra
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Open a file in VS Code.
+2. Run the **Run Inference** command via the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+3. Choose the provider and see the real-time AI-generated suggestions, code analysis, and results in the output panel.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Currently supports only a limited number of languages (JavaScript, Python, HTML, JSON).
+- Large files may take longer to process, depending on the inference service and internet connection.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Initial release of CodeMitra with support for OpenAI, SambaNova, and Groq.
 
 ---
 
-## Following extension guidelines
+## Contributing
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+We welcome contributions to improve CodeMitra. Feel free to open issues or pull requests on our [GitHub repository](https://github.com/echorohit/codemitra).
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Support and Feedback
 
-## Working with Markdown
+If you encounter any issues or have suggestions, please file an issue on [GitHub](https://github.com/your-repo-link/issues) or contact us through [email@example.com](mailto:email@example.com).
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Resources for Developers
 
-## For more information
+- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- [Visual Studio Code API Documentation](https://code.visualstudio.com/api)
+- [AI Service Providers](https://openai.com/, https://sambanova.com/, https://groq.com/)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Happy Coding with CodeMitra!**

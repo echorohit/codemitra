@@ -1,6 +1,8 @@
 {
   "name": "codemitra",
   "displayName": "codemitra",
+  "publisher": "vidyutva-tech",
+  "repository" : "https://github.com/echorohit/codemitra",
   "description": "Your coder friend! Powered by Inference leaders like SambaNova, Groq, OpenAI, Cerebras etc...",
   "version": "0.0.1",
   "engines": {
@@ -49,6 +51,22 @@
       {
         "command": "extension.runInference",
         "title": "Run Inference"
+      },
+      {
+        "command": "codemitra.showInputForm",
+        "title": "CodeMitra: Provide Custom Prompt"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codemitra.showInputForm",
+        "key": "cmd+i",  
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codemitra.showInputForm",
+        "key": "ctrl+i",
+        "when": "editorTextFocus"
       }
     ]
   },
